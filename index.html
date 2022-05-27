@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>signup page</title>
+  
+  <!-- HTML -->
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  
+  <!--this is the form-->
+  <div id="signup-box"> 
+  <center>
+  <div class="left">       
+  <h1>Sign up</h1>
+<input type="text" id="username" name="username" placeholder=" Enter username"/><br>
+  <input type="text" id="email" name="email" placeholder="Enter email" required/><br>
+  
+  <input type="password" id="password" name="password" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required /><br>
+  
+    <h6>Password must contain the following:</h6>
+    <h6 id="letter" >A <b>lowercase</b> letter;
+    A <b>capital (uppercase)</b> letter, A <b>number</b>, <b>8 characters</b></h6>
+    
+    <a href="#"><button id="cancel">Already have Account </button></a>
+  <input type="submit" id="signUp" name="signup_submit" value="Sign up"/><br>
+  
+
+      <a href="#"><button id="terms"> Terms of use</button></a>
+      <br>
+  </div>
+  </center>
+  </div>
+  <script src="main.js"></script>
+
