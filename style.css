@@ -1,0 +1,114 @@
+
+#username{
+  background-color: white;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  color:#000;
+  margin-top:10px;
+}
+#email{
+  background-color: white;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  color:#000;
+  margin-top:20px;
+  border-radius: none;
+}
+#password{
+  background-color: white;
+  width: 250px;
+  height: 30px;
+  font-size: 20px;
+  color: #000;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: none;
+}
+
+#signUp{
+  background: #32CD32;
+  width: 90px;
+  height: 40px;
+  border-radius:10px;
+  color:#fff;
+  font-size:15px;
+}
+#cancel{
+  background-color: red;
+  width: 50%;
+  height: 40px;
+  border-radius:5px;
+  color:#fff;
+  font-size:15px;
+  
+}
+#signup-box{
+ font-size: 25px;
+ background:#3DD7BD;
+ width: 33%;
+ margin:0 auto;
+ border-radius: 20px;
+ box-shadow:10px 10px 10px #ccc;
+height:600px;
+}
+
+#terms{
+  text-decoration: none;
+  margin-top: 20px;
+  height:40px;
+  width:150px;
+  background:#fff;
+  border-radius:5px;
+  color:#000;
+  font-size:16px;
+  margin-bottom:20px;
+  
+}
+
+
+#a{
+  text-decoration: none;
+  color:#fff;
+  font-size: 15px;
+}
+
+
+/*⚡️⚡️RESPONSIVENESS⚡️⚡️*/
+
+/*bigger than 992px*/
+@media screen and (min-width:992px) {
+  #signup-box {
+    width: 35%;
+
+  }
+
+}
+/*Tablet (768px-992px)*/
+@media screen and (min-width:768px) and (max-width:992px){
+  #signup-box {
+    width:40%;
+  }
+  
+}
+/*500px-768px*/
+@media screen and (min-width:500px) and (max-width:768px){
+  #signup-box {
+    width:70%;
+  }
+}
+
+/*320px-500px*/
+@media screen and (min-width: 320px) and (max-width:500px) {
+  #signup-box {
+    width:98%;
+}
+/*smaller than 320px*/
+@media screen and(max-width:320px){
+  #signup-box {
+  width:100%;
+    
+  }
+}
+}
